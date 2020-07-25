@@ -17,3 +17,76 @@ section,
 summary {
     display: block;
 }
+
+body {
+    padding: 0 10%;
+    font-family: 'Source Serif Pro', serif;
+    background-color: ghostwhite;
+}
+
+header {
+    background-color: cornflowerblue;
+    height: fit-content;
+    margin-bottom: 20px;
+    ;
+}
+
+h1 {
+    font-family: 'Cinzel', serif;
+    padding-top: 34px;
+    text-align: center;
+    color: cornsilk;
+    text-transform: uppercase;
+    font-size: 4em;
+}
+
+h2 {
+    font-family: "Cinzel", serif;
+    color: darkslategray;
+    text-align: center;
+}
+
+#container1 {
+    width: 78%;
+    height: 300px;
+    margin: 20px auto;
+    object-fit: cover;
+    box
+}
+
+#container1 img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+article p {
+    font-size: .9em;
+    margin: 0 auto;
+    width: 90%;
+    line-height: 1.5rem;
+}
+
+blockquote {
+    text-align: center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: dimgray;
+    font-weight: 200;
+    margin-bottom: 20px;
+    ;
+}
+
+footer {
+    padding-top: 10px;
+    background-color: cornflowerblue;
+    height: 2em;
+    text-align: center;
+    color: floralwhite;
+}
+
+
+/* @media (min-width 320px) {
+    body {
+        width: 95%;
+    }
+} */
