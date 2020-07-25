@@ -33,11 +33,11 @@ header {
 
 h1 {
     font-family: 'Cinzel', serif;
-    padding-top: 34px;
+    padding-top: 11px;
     text-align: center;
     color: cornsilk;
     text-transform: uppercase;
-    font-size: 4em;
+    font-size: 3.1rem;
 }
 
 h2 {
@@ -47,46 +47,93 @@ h2 {
 }
 
 #container1 {
-    width: 78%;
+    width: 70%;
     height: 300px;
-    margin: 20px auto;
+    margin: 20px auto 0;
     object-fit: cover;
-    box
+    border: cornflowerblue 10px solid;
+    border-radius: 10px;
 }
 
 #container1 img {
-    border-radius: 10px;
     width: 100%;
 }
 
 article p {
     font-size: .9em;
     margin: 0 auto;
-    width: 90%;
+    width: 77%;
     line-height: 1.5rem;
 }
 
 blockquote {
+    padding: 15px 0;
     text-align: center;
-    width: 100%;
+    width: 70%;
     font-family: Arial, Helvetica, sans-serif;
     color: dimgray;
-    font-weight: 200;
+    font-weight: bold;
     margin-bottom: 20px;
-    ;
+    background-color: lightblue;
+    margin: 0 auto;
 }
 
 footer {
+    margin: 20px auto 0;
     padding-top: 10px;
     background-color: cornflowerblue;
-    height: 2em;
+    height: fit-content;
     text-align: center;
     color: floralwhite;
 }
 
+.insert {
+    float: right;
+    width: 30%;
+    margin: 3%;
+}
 
-/* @media (min-width 320px) {
+@media (min-width:320px) {
     body {
-        width: 95%;
+        margin: 0 auto;
+        width: 98%;
+        padding: 0 0;
     }
-} */
+    #container1 {
+        width: 85%;
+    }
+    blockquote {
+        width: 85%;
+    }
+    .insert {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        width: 80%
+    }
+    #container1 {
+        width: 70%;
+        height: 300px;
+        margin: 20px auto 0;
+        object-fit: cover;
+        border: cornflowerblue 10px solid;
+        border-radius: 10px;
+    }
+    blockquote {
+        padding: 15px 0;
+        text-align: center;
+        width: 70%;
+        font-family: Arial, Helvetica, sans-serif;
+        color: dimgray;
+        font-weight: bold;
+        margin-bottom: 20px;
+        background-color: lightblue;
+        margin: 0 auto;
+    }
+    .insert {
+        width: 30%;
+    }
+}
